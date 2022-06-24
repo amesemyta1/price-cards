@@ -8,11 +8,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: $color-dark;
 }
 
 .price-tables {
-  margin: 115px 132px;
+  padding: 115px 0;
+  background: $color-dark;
   display: flex;
   justify-content: center;
   align-items: center;
