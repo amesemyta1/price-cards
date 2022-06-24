@@ -8,13 +8,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: $color-dark;
 }
 
 .price-tables {
-  margin: 0;
+  margin: 115px 132px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 18px;
-  background: $color-dark;
 }
