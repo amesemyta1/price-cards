@@ -1,0 +1,19 @@
+@import 'variables.scss';
+@import 'price-tables.scss';
+
+html {
+  font-family: $font-family;
+}
+
+body {
+  margin: 0;
+}
+
+.price-tables {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background: $color-dark;
+}
