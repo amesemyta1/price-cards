@@ -144,6 +144,7 @@ body {
 
 .price-tables {
   padding: 115px 0;
+  height: 1000px;
   background: #141b1c;
   display: flex;
   justify-content: center;
