@@ -13,7 +13,3 @@
 ### Author
 
 - Aleksandr Pushkaryov
-=======
-# price_cards
-
-HTML/CSS Lesson 25
