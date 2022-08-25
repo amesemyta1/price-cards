@@ -2,6 +2,8 @@
 
 ### [Site link](https://amesemyta1.github.io/price_cards/)
 
+Layout supports desktop (up-to-1440) versions
+
 ### The tech stack is:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
