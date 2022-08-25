@@ -59,7 +59,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $color-green;
+
+    &_green {
+      background-color: $color-green;
+    }
 
     &_blue {
       background-color: $color-blue;
@@ -100,7 +103,10 @@
     height: 13px;
     margin: 18px 22px 19px 22px;
     display: inline-block;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
 
     &_blue {
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
@@ -134,7 +140,12 @@
   &__order-btn {
     height: 40px;
     width: 155px;
-    background: $color-green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 39px;
+    margin-bottom: 40px;
     border: none;
     border-radius: 20px;
     font-weight: 400;
@@ -142,6 +153,10 @@
     line-height: 17px;
     text-align: center;
     color: $text-color-white;
+
+    &_green {
+      background-color: $color-green;
+    }
 
     &_blue {
       background-color: $color-blue;

@@ -54,6 +54,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.price-card__price_green {
   background-color: #5bb189;
 }
 .price-card__price_blue {
@@ -89,6 +91,8 @@
   height: 13px;
   margin: 18px 22px 19px 22px;
   display: inline-block;
+}
+.price-card__options-list-icon_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 .price-card__options-list-icon_blue {
@@ -105,7 +109,7 @@
   display: flex;
 }
 .price-card__options-list li:nth-child(odd) {
-  background-color: rgba(56, 42, 45, 0.5019607843);
+  background-color: rgba(42, 52, 56, 0.5);
 }
 .price-card__button {
   display: flex;
@@ -117,7 +121,12 @@
 .price-card__order-btn {
   height: 40px;
   width: 155px;
-  background: #5bb189;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 39px;
+  margin-bottom: 40px;
   border: none;
   border-radius: 20px;
   font-weight: 400;
@@ -125,6 +134,9 @@
   line-height: 17px;
   text-align: center;
   color: #ffffff;
+}
+.price-card__order-btn_green {
+  background-color: #5bb189;
 }
 .price-card__order-btn_blue {
   background-color: #3a6ba5;
