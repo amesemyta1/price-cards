@@ -109,7 +109,7 @@
   display: flex;
 }
 .price-card__options-list li:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5);
+  background-color: rgba(42, 52, 56, 0.5019607843);
 }
 .price-card__button {
   display: flex;
