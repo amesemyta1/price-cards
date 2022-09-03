@@ -1,6 +1,6 @@
 # Price cards
 
-### [Site link](https://amesemyta1.github.io/price_cards/index.html)
+### [Site link](https://amesemyta1.github.io/price-cards/)
 
 Layout supports desktop (up-to-1440) versions
 
